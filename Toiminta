@@ -1,0 +1,16 @@
+spark-shell käynnistys tiedostorakennekansiosta
+/Documents/spark-1.3.0-bin-hadoop2.4/Spark3/
+../bin/spark-shell
+
+//kooditiedostopolku
+/home/wadror/Documents/spark-1.3.0-bin-hadoop2.4/Spark3/src/main/scala/Tehtava31.scala
+
+suoritus spark-shell
+wadror@wadror-VirtualBox:~/Documents/spark-1.3.0-bin-hadoop2.4/Spark3$ ../bin/spark-shell -i ./src/main/scala/Tehtava31.scala
+
+luo jar-tiedoston
+
+sbt package
+
+wadror@wadror-VirtualBox:~/Documents/spark-1.3.0-bin-hadoop2.4/Spark3$ ./bin/spark-submit --class "Tehtava31" --master local[4] ./Tehtavat3/Tehtava31/target/scala-2.10/tehtava31_2.10-1.0.jar Tehtavat3/Tiedostot/Linkin.txt Tiedosto1 Tiedosto2
+
