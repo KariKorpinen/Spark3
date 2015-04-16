@@ -12,5 +12,11 @@ luo jar-tiedoston
 
 sbt package
 
+//vanha polku
 wadror@wadror-VirtualBox:~/Documents/spark-1.3.0-bin-hadoop2.4/Spark3$ ./bin/spark-submit --class "Tehtava31" --master local[4] ./Tehtavat3/Tehtava31/target/scala-2.10/tehtava31_2.10-1.0.jar Tehtavat3/Tiedostot/Linkin.txt Tiedosto1 Tiedosto2
+
+wadror@wadror-VirtualBox:~/Documents/spark-1.3.0-bin-hadoop2.4/Spark3$ ./bin/spark-submit --class "Tehtava31" --master local[4] ./target/scala-2.10/tehtava31_2.10-1.0.jar Tehtavat3/Tiedostot/Linkin.txt Tiedosto1 Tiedosto2
+
+wadror@wadror-VirtualBox:~/Documents/spark-1.3.0-bin-hadoop2.4/Spark3$ ../bin/spark-submit --class "Tehtava31" --master local[4] ./target/scala-2.10/tehtava31_2.10-1.0.jar
+
 
